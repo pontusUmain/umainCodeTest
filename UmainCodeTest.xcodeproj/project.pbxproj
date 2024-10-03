@@ -14,6 +14,20 @@
 		1491A2852CAE82DC0095089B /* UmainCodeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2842CAE82DC0095089B /* UmainCodeTestTests.swift */; };
 		1491A28F2CAE82DC0095089B /* UmainCodeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A28E2CAE82DC0095089B /* UmainCodeTestUITests.swift */; };
 		1491A2912CAE82DC0095089B /* UmainCodeTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2902CAE82DC0095089B /* UmainCodeTestUITestsLaunchTests.swift */; };
+		1491A2A12CAE848F0095089B /* CodableWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2A02CAE848F0095089B /* CodableWrapper.swift */; };
+		1491A2A32CAE85F30095089B /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2A22CAE85F30095089B /* Restaurant.swift */; };
+		1491A2A52CAE87180095089B /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2A42CAE87180095089B /* Filter.swift */; };
+		1491A2A72CAE887C0095089B /* OpenStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2A62CAE887C0095089B /* OpenStatus.swift */; };
+		1491A2AB2CAE8B400095089B /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2AA2CAE8B400095089B /* NetworkRequest.swift */; };
+		1491A2B12CAE8D2A0095089B /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2B02CAE8D2A0095089B /* APIError.swift */; };
+		1491A2B32CAE8E780095089B /* ImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2B22CAE8E780095089B /* ImageRequest.swift */; };
+		1491A2B62CAE8FC10095089B /* ApiDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2B52CAE8FC10095089B /* ApiDecoder.swift */; };
+		1491A2B92CAE90310095089B /* ApiResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2B82CAE90310095089B /* ApiResource.swift */; };
+		1491A2BB2CAE90930095089B /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2BA2CAE90930095089B /* APIRequest.swift */; };
+		1491A2BE2CAE91940095089B /* RestaurantResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2BD2CAE91940095089B /* RestaurantResource.swift */; };
+		1491A2C12CAE91BA0095089B /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2C02CAE91BA0095089B /* Endpoint.swift */; };
+		1491A2C32CAE94BA0095089B /* FilterResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2C22CAE94BA0095089B /* FilterResource.swift */; };
+		1491A2C52CAE95AA0095089B /* OpenStatusResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2C42CAE95AA0095089B /* OpenStatusResource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +58,20 @@
 		1491A28A2CAE82DC0095089B /* UmainCodeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UmainCodeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1491A28E2CAE82DC0095089B /* UmainCodeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmainCodeTestUITests.swift; sourceTree = "<group>"; };
 		1491A2902CAE82DC0095089B /* UmainCodeTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmainCodeTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1491A2A02CAE848F0095089B /* CodableWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableWrapper.swift; sourceTree = "<group>"; };
+		1491A2A22CAE85F30095089B /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		1491A2A42CAE87180095089B /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		1491A2A62CAE887C0095089B /* OpenStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenStatus.swift; sourceTree = "<group>"; };
+		1491A2AA2CAE8B400095089B /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		1491A2B02CAE8D2A0095089B /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		1491A2B22CAE8E780095089B /* ImageRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRequest.swift; sourceTree = "<group>"; };
+		1491A2B52CAE8FC10095089B /* ApiDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiDecoder.swift; sourceTree = "<group>"; };
+		1491A2B82CAE90310095089B /* ApiResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResource.swift; sourceTree = "<group>"; };
+		1491A2BA2CAE90930095089B /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		1491A2BD2CAE91940095089B /* RestaurantResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantResource.swift; sourceTree = "<group>"; };
+		1491A2C02CAE91BA0095089B /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		1491A2C22CAE94BA0095089B /* FilterResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterResource.swift; sourceTree = "<group>"; };
+		1491A2C42CAE95AA0095089B /* OpenStatusResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenStatusResource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +122,7 @@
 		1491A2722CAE82DA0095089B /* UmainCodeTest */ = {
 			isa = PBXGroup;
 			children = (
+				1491A29D2CAE846C0095089B /* Networking */,
 				1491A2732CAE82DA0095089B /* UmainCodeTestApp.swift */,
 				1491A2752CAE82DA0095089B /* ContentView.swift */,
 				1491A2772CAE82DB0095089B /* Assets.xcassets */,
@@ -125,6 +154,91 @@
 				1491A2902CAE82DC0095089B /* UmainCodeTestUITestsLaunchTests.swift */,
 			);
 			path = UmainCodeTestUITests;
+			sourceTree = "<group>";
+		};
+		1491A29D2CAE846C0095089B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1491A2BF2CAE91AE0095089B /* Endpoint */,
+				1491A2B42CAE8FB60095089B /* ApiDecoder */,
+				1491A2AF2CAE8D200095089B /* Error */,
+				1491A29E2CAE84710095089B /* Models */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1491A29E2CAE84710095089B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1491A2BC2CAE90F40095089B /* Protocol */,
+				1491A2B72CAE90230095089B /* Resource */,
+				1491A2A92CAE8B2D0095089B /* Request */,
+				1491A29F2CAE84840095089B /* Codables */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1491A29F2CAE84840095089B /* Codables */ = {
+			isa = PBXGroup;
+			children = (
+				1491A2A02CAE848F0095089B /* CodableWrapper.swift */,
+				1491A2A22CAE85F30095089B /* Restaurant.swift */,
+				1491A2A42CAE87180095089B /* Filter.swift */,
+				1491A2A62CAE887C0095089B /* OpenStatus.swift */,
+			);
+			path = Codables;
+			sourceTree = "<group>";
+		};
+		1491A2A92CAE8B2D0095089B /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				1491A2B22CAE8E780095089B /* ImageRequest.swift */,
+				1491A2BA2CAE90930095089B /* APIRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		1491A2AF2CAE8D200095089B /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				1491A2B02CAE8D2A0095089B /* APIError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		1491A2B42CAE8FB60095089B /* ApiDecoder */ = {
+			isa = PBXGroup;
+			children = (
+				1491A2B52CAE8FC10095089B /* ApiDecoder.swift */,
+			);
+			path = ApiDecoder;
+			sourceTree = "<group>";
+		};
+		1491A2B72CAE90230095089B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1491A2BD2CAE91940095089B /* RestaurantResource.swift */,
+				1491A2C22CAE94BA0095089B /* FilterResource.swift */,
+				1491A2C42CAE95AA0095089B /* OpenStatusResource.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		1491A2BC2CAE90F40095089B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1491A2AA2CAE8B400095089B /* NetworkRequest.swift */,
+				1491A2B82CAE90310095089B /* ApiResource.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		1491A2BF2CAE91AE0095089B /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				1491A2C02CAE91BA0095089B /* Endpoint.swift */,
+			);
+			path = Endpoint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +371,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1491A2C12CAE91BA0095089B /* Endpoint.swift in Sources */,
+				1491A2C52CAE95AA0095089B /* OpenStatusResource.swift in Sources */,
+				1491A2AB2CAE8B400095089B /* NetworkRequest.swift in Sources */,
+				1491A2B92CAE90310095089B /* ApiResource.swift in Sources */,
+				1491A2BB2CAE90930095089B /* APIRequest.swift in Sources */,
+				1491A2A32CAE85F30095089B /* Restaurant.swift in Sources */,
+				1491A2A52CAE87180095089B /* Filter.swift in Sources */,
+				1491A2B62CAE8FC10095089B /* ApiDecoder.swift in Sources */,
+				1491A2A12CAE848F0095089B /* CodableWrapper.swift in Sources */,
+				1491A2A72CAE887C0095089B /* OpenStatus.swift in Sources */,
+				1491A2B12CAE8D2A0095089B /* APIError.swift in Sources */,
 				1491A2762CAE82DA0095089B /* ContentView.swift in Sources */,
+				1491A2B32CAE8E780095089B /* ImageRequest.swift in Sources */,
+				1491A2BE2CAE91940095089B /* RestaurantResource.swift in Sources */,
+				1491A2C32CAE94BA0095089B /* FilterResource.swift in Sources */,
 				1491A2742CAE82DA0095089B /* UmainCodeTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,7 +550,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UmainCodeTest/Preview Content\"";
-				DEVELOPMENT_TEAM = 89DQD8B7D7;
+				DEVELOPMENT_TEAM = 9N8ZC32DMP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
