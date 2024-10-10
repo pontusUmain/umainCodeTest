@@ -8,7 +8,7 @@
 import Foundation
 
 struct RestaurantResource: APIResource {
-    typealias ModelType = [Restaurant]
+    typealias ModelType = RestaurantResponse
     
     var baseUrl: String {
         return Endpoint.restaurants.baseUrl

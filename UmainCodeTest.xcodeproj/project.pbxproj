@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1491A2742CAE82DA0095089B /* UmainCodeTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2732CAE82DA0095089B /* UmainCodeTestApp.swift */; };
-		1491A2762CAE82DA0095089B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2752CAE82DA0095089B /* ContentView.swift */; };
 		1491A2782CAE82DB0095089B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1491A2772CAE82DB0095089B /* Assets.xcassets */; };
 		1491A27B2CAE82DB0095089B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1491A27A2CAE82DB0095089B /* Preview Assets.xcassets */; };
 		1491A2852CAE82DC0095089B /* UmainCodeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2842CAE82DC0095089B /* UmainCodeTestTests.swift */; };
 		1491A28F2CAE82DC0095089B /* UmainCodeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A28E2CAE82DC0095089B /* UmainCodeTestUITests.swift */; };
 		1491A2912CAE82DC0095089B /* UmainCodeTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2902CAE82DC0095089B /* UmainCodeTestUITestsLaunchTests.swift */; };
-		1491A2A12CAE848F0095089B /* CodableWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2A02CAE848F0095089B /* CodableWrapper.swift */; };
 		1491A2A32CAE85F30095089B /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2A22CAE85F30095089B /* Restaurant.swift */; };
 		1491A2A52CAE87180095089B /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2A42CAE87180095089B /* Filter.swift */; };
 		1491A2A72CAE887C0095089B /* OpenStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2A62CAE887C0095089B /* OpenStatus.swift */; };
@@ -28,6 +26,8 @@
 		1491A2C12CAE91BA0095089B /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2C02CAE91BA0095089B /* Endpoint.swift */; };
 		1491A2C32CAE94BA0095089B /* FilterResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2C22CAE94BA0095089B /* FilterResource.swift */; };
 		1491A2C52CAE95AA0095089B /* OpenStatusResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2C42CAE95AA0095089B /* OpenStatusResource.swift */; };
+		1491A2C82CAE99400095089B /* RestaurantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2C72CAE99400095089B /* RestaurantListView.swift */; };
+		1491A2CA2CAE9DB60095089B /* RestaurantResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2C92CAE9DB60095089B /* RestaurantResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,6 @@
 /* Begin PBXFileReference section */
 		1491A2702CAE82DA0095089B /* UmainCodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UmainCodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1491A2732CAE82DA0095089B /* UmainCodeTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmainCodeTestApp.swift; sourceTree = "<group>"; };
-		1491A2752CAE82DA0095089B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1491A2772CAE82DB0095089B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1491A27A2CAE82DB0095089B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1491A2802CAE82DC0095089B /* UmainCodeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UmainCodeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +57,6 @@
 		1491A28A2CAE82DC0095089B /* UmainCodeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UmainCodeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1491A28E2CAE82DC0095089B /* UmainCodeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmainCodeTestUITests.swift; sourceTree = "<group>"; };
 		1491A2902CAE82DC0095089B /* UmainCodeTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmainCodeTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1491A2A02CAE848F0095089B /* CodableWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableWrapper.swift; sourceTree = "<group>"; };
 		1491A2A22CAE85F30095089B /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		1491A2A42CAE87180095089B /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		1491A2A62CAE887C0095089B /* OpenStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenStatus.swift; sourceTree = "<group>"; };
@@ -72,6 +70,8 @@
 		1491A2C02CAE91BA0095089B /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		1491A2C22CAE94BA0095089B /* FilterResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterResource.swift; sourceTree = "<group>"; };
 		1491A2C42CAE95AA0095089B /* OpenStatusResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenStatusResource.swift; sourceTree = "<group>"; };
+		1491A2C72CAE99400095089B /* RestaurantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListView.swift; sourceTree = "<group>"; };
+		1491A2C92CAE9DB60095089B /* RestaurantResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,9 +122,9 @@
 		1491A2722CAE82DA0095089B /* UmainCodeTest */ = {
 			isa = PBXGroup;
 			children = (
+				1491A2C62CAE99350095089B /* View */,
 				1491A29D2CAE846C0095089B /* Networking */,
 				1491A2732CAE82DA0095089B /* UmainCodeTestApp.swift */,
-				1491A2752CAE82DA0095089B /* ContentView.swift */,
 				1491A2772CAE82DB0095089B /* Assets.xcassets */,
 				1491A2792CAE82DB0095089B /* Preview Content */,
 			);
@@ -181,7 +181,7 @@
 		1491A29F2CAE84840095089B /* Codables */ = {
 			isa = PBXGroup;
 			children = (
-				1491A2A02CAE848F0095089B /* CodableWrapper.swift */,
+				1491A2C92CAE9DB60095089B /* RestaurantResponse.swift */,
 				1491A2A22CAE85F30095089B /* Restaurant.swift */,
 				1491A2A42CAE87180095089B /* Filter.swift */,
 				1491A2A62CAE887C0095089B /* OpenStatus.swift */,
@@ -239,6 +239,14 @@
 				1491A2C02CAE91BA0095089B /* Endpoint.swift */,
 			);
 			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		1491A2C62CAE99350095089B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1491A2C72CAE99400095089B /* RestaurantListView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1491A2C12CAE91BA0095089B /* Endpoint.swift in Sources */,
+				1491A2C82CAE99400095089B /* RestaurantListView.swift in Sources */,
 				1491A2C52CAE95AA0095089B /* OpenStatusResource.swift in Sources */,
 				1491A2AB2CAE8B400095089B /* NetworkRequest.swift in Sources */,
 				1491A2B92CAE90310095089B /* ApiResource.swift in Sources */,
@@ -379,10 +388,9 @@
 				1491A2A32CAE85F30095089B /* Restaurant.swift in Sources */,
 				1491A2A52CAE87180095089B /* Filter.swift in Sources */,
 				1491A2B62CAE8FC10095089B /* ApiDecoder.swift in Sources */,
-				1491A2A12CAE848F0095089B /* CodableWrapper.swift in Sources */,
+				1491A2CA2CAE9DB60095089B /* RestaurantResponse.swift in Sources */,
 				1491A2A72CAE887C0095089B /* OpenStatus.swift in Sources */,
 				1491A2B12CAE8D2A0095089B /* APIError.swift in Sources */,
-				1491A2762CAE82DA0095089B /* ContentView.swift in Sources */,
 				1491A2B32CAE8E780095089B /* ImageRequest.swift in Sources */,
 				1491A2BE2CAE91940095089B /* RestaurantResource.swift in Sources */,
 				1491A2C32CAE94BA0095089B /* FilterResource.swift in Sources */,

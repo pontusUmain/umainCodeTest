@@ -14,13 +14,13 @@ class APIRequest<Resource: APIResource>: NetworkRequest {
         self.resource = resource
     }
     
-    func decode(_ data: Data) throws -> [Resource.ModelType] {
+    func decode(_ data: Data) throws -> Resource.ModelType {
         let wrapper = try JSONDecoder.apiDecoder
-            .decode(CodableWrapper<Resource.ModelType>.self, from: data)
-        return wrapper.items
+            .decode(Resource.ModelType.self, from: data)
+        return wrapper
     }
 
-    func execute() async throws -> [Resource.ModelType] {
+    func execute() async throws -> Resource.ModelType {
         try await load(resource.url)
     }
 }
