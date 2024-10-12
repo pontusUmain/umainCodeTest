@@ -19,3 +19,7 @@ extension Filter: Codable {
         case id, name
     }
 }
+
+extension Filter {
+    static let mock: Filter = .init(id: "id", name: "Mock", imageUrl: "https://picsum.photos/30")
+}

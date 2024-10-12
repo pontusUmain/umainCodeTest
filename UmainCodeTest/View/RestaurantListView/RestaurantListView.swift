@@ -13,11 +13,20 @@ struct RestaurantListView: View {
     
     var body: some View {
         VStack {
-            List(viewModel.restaurants) { restaurant in
-                Text(restaurant.name)
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 16) {
+                    ForEach(viewModel.filters) { filter in
+                        FilterButton(filter: filter, isActive: viewModel.activeFilters.contains(filter), action: {
+                            viewModel.didPressFilter(filter)
+                        })
+                    }
+                }
+                .padding(.horizontal, 21)
+                .padding(.vertical, 8)
+
             }
-            List(viewModel.filters) { filter in
-                Text(filter.name)
+            List(viewModel.filteredRestaurants) { restaurant in
+                Text(restaurant.name)
             }
         }
         .task {
@@ -25,46 +34,6 @@ struct RestaurantListView: View {
         }
         .refreshable {
             try? await viewModel.loadView()
-        }
-    }
-}
-
-@Observable class RestaurantListViewModel {
-    private(set) var restaurants = [Restaurant]()
-    private(set) var filters = [Filter]()
-    private(set) var isLoading = false
-    
-    @MainActor
-    func loadView() async throws {
-        guard !isLoading else { return }
-        defer { isLoading = false }
-        isLoading = true
-        try await fetchRestaurants()
-        try await fetchFilters(filterIds: getFiltersIds())
-    }
-
-    func fetchRestaurants() async throws {
-        let resource = RestaurantResource()
-        let request = APIRequest(resource: resource)
-        let result = try await request.execute()
-        restaurants = result.restaurants
-    }
-    
-    func getFiltersIds() -> [String] {
-        var filterIds = [String]()
-        for restaurant in restaurants {
-            let newFilters = restaurant.filterIds.filter { !filterIds.contains($0) }
-            filterIds += newFilters
-        }
-        return filterIds
-    }
-    
-    func fetchFilters(filterIds: [String]) async throws {
-        for filter in filterIds {
-            let resource = FilterResource(id: filter)
-            let request = APIRequest(resource: resource)
-            let result = try await request.execute()
-            filters.append(result)
         }
     }
 }

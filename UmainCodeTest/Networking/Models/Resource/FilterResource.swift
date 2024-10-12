@@ -8,7 +8,7 @@
 import Foundation
 
 struct FilterResource: APIResource {
-    typealias ModelType = [Filter]
+    typealias ModelType = Filter
     
     var id: String
     
