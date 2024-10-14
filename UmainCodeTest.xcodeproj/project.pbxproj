@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		145CA9082CBAB6340040DBD5 /* RestaurantListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145CA9072CBAB6340040DBD5 /* RestaurantListViewModel.swift */; };
 		145CA90B2CBAB74A0040DBD5 /* FilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145CA90A2CBAB74A0040DBD5 /* FilterButton.swift */; };
+		145CA90E2CBCFA2A0040DBD5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145CA90D2CBCFA2A0040DBD5 /* DetailView.swift */; };
+		145CA9102CBCFA3E0040DBD5 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145CA90F2CBCFA3E0040DBD5 /* DetailViewModel.swift */; };
 		1491A2742CAE82DA0095089B /* UmainCodeTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1491A2732CAE82DA0095089B /* UmainCodeTestApp.swift */; };
 		1491A2782CAE82DB0095089B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1491A2772CAE82DB0095089B /* Assets.xcassets */; };
 		1491A27B2CAE82DB0095089B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1491A27A2CAE82DB0095089B /* Preview Assets.xcassets */; };
@@ -52,6 +54,8 @@
 /* Begin PBXFileReference section */
 		145CA9072CBAB6340040DBD5 /* RestaurantListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListViewModel.swift; sourceTree = "<group>"; };
 		145CA90A2CBAB74A0040DBD5 /* FilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButton.swift; sourceTree = "<group>"; };
+		145CA90D2CBCFA2A0040DBD5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		145CA90F2CBCFA3E0040DBD5 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		1491A2702CAE82DA0095089B /* UmainCodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UmainCodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1491A2732CAE82DA0095089B /* UmainCodeTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmainCodeTestApp.swift; sourceTree = "<group>"; };
 		1491A2772CAE82DB0095089B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -118,6 +122,15 @@
 				145CA90A2CBAB74A0040DBD5 /* FilterButton.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		145CA90C2CBCFA160040DBD5 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				145CA90D2CBCFA2A0040DBD5 /* DetailView.swift */,
+				145CA90F2CBCFA3E0040DBD5 /* DetailViewModel.swift */,
+			);
+			path = DetailView;
 			sourceTree = "<group>";
 		};
 		1491A2672CAE82DA0095089B = {
@@ -266,6 +279,7 @@
 		1491A2C62CAE99350095089B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				145CA90C2CBCFA160040DBD5 /* DetailView */,
 				145CA9062CBAB6200040DBD5 /* RestaurantListView */,
 			);
 			path = View;
@@ -417,8 +431,10 @@
 				1491A2B32CAE8E780095089B /* ImageRequest.swift in Sources */,
 				1491A2BE2CAE91940095089B /* RestaurantResource.swift in Sources */,
 				1491A2C32CAE94BA0095089B /* FilterResource.swift in Sources */,
+				145CA90E2CBCFA2A0040DBD5 /* DetailView.swift in Sources */,
 				1491A2742CAE82DA0095089B /* UmainCodeTestApp.swift in Sources */,
 				145CA9082CBAB6340040DBD5 /* RestaurantListViewModel.swift in Sources */,
+				145CA9102CBCFA3E0040DBD5 /* DetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

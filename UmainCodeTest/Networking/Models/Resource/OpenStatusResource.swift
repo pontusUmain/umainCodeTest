@@ -8,7 +8,7 @@
 import Foundation
 
 struct OpenStatusResource: APIResource {
-    typealias ModelType = [OpenStatus]
+    typealias ModelType = OpenStatus
     
     var id: String
     

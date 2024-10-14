@@ -23,3 +23,7 @@ extension Restaurant: Codable {
         case filterIds, rating, id, name
     }
 }
+
+extension Restaurant {
+    static let mock = Restaurant(filterIds: [], deliveryTimeMinutes: 10, rating: 5, imageUrl: "https://picsum.photos/300", id: "id", name: "Mock")
+}
